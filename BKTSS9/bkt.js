@@ -1,5 +1,5 @@
-const orders = ["Đơn hàng A", "Đơn hàng B", "Đơn hàng C", "Đơn hàng D", "Đơn hàng E"];
-const revenues = [1500, 2800, 1200, -500, 3200];
+let orders = ["Đơn hàng A", "Đơn hàng B", "Đơn hàng C", "Đơn hàng D", "Đơn hàng E"];
+let revenues = [1500, 2800, 1200, -500, 3200];
 const negative = revenues.some(function(revenue) {
     return revenue < 0;
 });
@@ -27,4 +27,5 @@ const totalNetProfit = netProfits.reduce(function(sum, currentValue) {
 //     );
 
 // });
+
 

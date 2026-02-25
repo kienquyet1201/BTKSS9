@@ -25,4 +25,5 @@ const totalNetProfit = netProfits.reduce(function(sum, currentValue) {
 //         "| Doanh thu:", revenues[index],
 //         "| Lợi nhuận ròng:", netProfits[index]
 //     );
+
 // });

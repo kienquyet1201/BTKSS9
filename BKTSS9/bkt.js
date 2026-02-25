@@ -1,10 +1,10 @@
 const orders = ["Đơn hàng A", "Đơn hàng B", "Đơn hàng C", "Đơn hàng D", "Đơn hàng E"];
 const revenues = [1500, 2800, 1200, -500, 3200];
-const hasNegativeOrder = revenues.some(function(revenue) {
+const negative = revenues.some(function(revenue) {
     return revenue < 0;
 });
 
-console.log("Có đơn hàng âm:", hasNegativeOrder);
+console.log("Có đơn hàng âm:", negative);
 const allAbove500 = revenues.every(function(revenue) {
     return revenue > 500;
 });
@@ -27,3 +27,4 @@ const totalNetProfit = netProfits.reduce(function(sum, currentValue) {
 //     );
 
 // });
+
